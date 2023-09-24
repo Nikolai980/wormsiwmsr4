@@ -51,3 +51,60 @@ body {
     transform: translateX(10%);
   }
 }
+
+
+
+copied
+body {
+  height: 100vh; 
+}
+
+h1 {
+  text-align: center;
+  margin: 35px 0 20px 0 !important;
+  color: red;
+}
+
+body {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  width: 70%;
+  text-align: center;
+  margin: auto;
+}
+
+.send-btn {
+  background-color: transparent;
+  border: 1px solid red;
+  color: white;
+  font-size: 16px;
+  padding: 10px 20px;
+  transition: all 0.3s;
+  margin-top: 20px;
+}
+
+.send-btn:hover {
+  background-color: red;
+  color: white;
+  animation: move 1s infinite alternate;
+}
+
+.send-btn:active {
+  background-color: red;
+  color: white;
+}
+
+.red-text {
+  color: red;
+}
+
+@media only screen and (max-width: 600px) {
+  form {
+    width: 90%;
+  }
+}
