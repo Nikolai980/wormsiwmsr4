@@ -5,7 +5,9 @@ h1 {
 }
 
 body {
-  background-color: black;
+  background-image: url('https://cdn.discordapp.com/attachments/889554946792505384/1155562529972572340/image0.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
