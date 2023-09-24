@@ -103,8 +103,8 @@ form {
   color: red;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 400px) {
   form {
-    width: 90%;
+    width: 50%;
   }
 }
