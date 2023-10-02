@@ -4,6 +4,11 @@ h1 {
   color: red;
 }
 
+.label-text {
+  color: white;
+  font-size: 13px;
+}
+
 body {
   background-image: url('https://cdn.discordapp.com/attachments/889554946792505384/1155562529972572340/image0.jpg');
   background-repeat: no-repeat;
